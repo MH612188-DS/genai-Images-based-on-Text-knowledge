@@ -1,1 +1,1 @@
-"# Generative AI for Prosthetic Arm" 
+"# Generative AI for generating images" 
