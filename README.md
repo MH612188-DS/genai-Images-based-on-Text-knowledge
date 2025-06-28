@@ -1,9 +1,9 @@
-GandharaGen: Avatar Generation using Knowledge-Based Stable Diffusion
+# GandharaGen: Avatar Generation using Knowledge-Based Stable Diffusion
 GandharaGen is an AI-powered application that generates realistic historical avatars and backstories based on ancient Gandharan or Taxilan texts. It combines Large Language Models (LLMs), sentence embedding-based retrieval, and diffusion-based image generation to bring culturally rich characters to life.
 
 This project generates photorealistic avatars based on historical textual knowledge using Stable Diffusion. It leverages the SG161222/Realistic_Vision_V5.1_noVAE model to create culturally accurate avatars guided by descriptions derived from ancient Gandhara heritage texts.
 
-• Key Features
+## Key Features
     • Context-Aware Prompt Enrichment using historical texts
     
     • Semantic Search with FAISS and SentenceTransformers
@@ -14,24 +14,24 @@ This project generates photorealistic avatars based on historical textual knowle
     
     • Tkinter GUI for an intuitive and interactive experience
 
-•	Background
+## Background
 The project blends generative AI with historical context retrieval. We use a knowledge base of historical texts to provide semantically rich prompts that guide avatar generation. This is particularly relevant for the cultural revival and visualization of figures from Gandhara art and history.
 
-•	Tech Stack
+## Tech Stack
 Model: SG161222/Realistic_Vision_V5.1_noVAE
 
-•	Diffusion Backend
+## Diffusion Backend
 HuggingFace diffusers library
 
-•	Language Base
+## Language Base
  Text prompts derived from Gandhara-era Buddhist/Hellenistic texts
 
-•	UI: Gradio (optional)
+## UI: Gradio (optional)
   Platform: Google Colab (supports CPU/GPU)
 
-•	-Workflow & Pipeline
+## Workflow & Pipeline
 
-Pipeline
+### Pipeline
 1.	Input:
 User inputs a character name or keyword (e.g., “Bodhisattva warrior”).
 
@@ -47,7 +47,7 @@ Stable Diffusion generates images based on the prompt.
 5.	Output:
 Final avatar(s) are displayed and downloadable.
 
-Workflow Overview
+### Workflow Overview
 1. Text Upload & Chunking
 The user uploads historical Gandharan text files (*.txt).
 
@@ -73,7 +73,7 @@ The enriched prompt is passed to a fine-tuned Stable Diffusion pipeline (Realist
 
 The model is loaded on GPU using PyTorch and diffusers.
 
-🧪 Example Output
+### Example Output
 Prompt:
 
 A Gandharan merchant
