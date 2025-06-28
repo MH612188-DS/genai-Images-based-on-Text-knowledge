@@ -1,0 +1,28 @@
+# Core Libraries
+python-dotenv==1.0.1
+Pillow==10.3.0
+tk==0.1.0  # Optional placeholder for tkinter (built-in with Python)
+
+# Sentence Embedding & Semantic Search
+sentence-transformers==2.6.1
+faiss-cpu==1.7.4  # Use 'faiss-gpu' if running with GPU for FAISS
+
+# Image Generation (Stable Diffusion)
+diffusers==0.27.2
+torch==2.3.0
+transformers==4.41.1
+accelerate==0.30.1
+xformers==0.0.25
+
+# Google Gemini API
+google-generativeai==0.5.4
+
+# Optional for reproducibility or debugging
+numpy==1.26.4
+
+##Notes:
+ -tk is preinstalled with most Python distributions. If you face issues, install via system package manager (sudo apt install python3-tk on Ubuntu).
+
+ -If you're using a GPU, replace faiss-cpu with faiss-gpu and ensure your PyTorch version matches your CUDA version.
+
+ -If you're running on Colab or an environment without GPU, consider removing xformers or switching to torch.float32.
