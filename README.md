@@ -49,9 +49,7 @@ Final avatar(s) are displayed and downloadable.
 
 ### Workflow Overview
 1. Text Upload & Chunking
-The user uploads historical Gandharan text files (*.txt).
-
-Text is split into manageable semantic chunks (typically ~100 words each) using sentence-based chunking.
+The user uploads historical Gandharan text files (*.txt). Text is split into manageable semantic chunks (typically ~100 words each) using sentence-based chunking.
 
 2. Embedding & Indexing (Feature Extraction)
 Each chunk is embedded into a high-dimensional semantic space using SentenceTransformer('all-MiniLM-L6-v2').
